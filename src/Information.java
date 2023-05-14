@@ -13,6 +13,7 @@ public class Information extends User {
         firstUser.makePurchase(150);
         firstUser.makePurchase(200);
         firstUser.PrintTotalAmountOfSpentMoney();
+        firstUser.addDiscount(15);
 
         User secondUser = new User("Petro", "pass2024");
         secondUser.email= "petro.2023@gmail.com";
@@ -26,5 +27,6 @@ public class Information extends User {
         secondUser.makePurchase(300);
         secondUser.makePurchase(450);
         secondUser.PrintTotalAmountOfSpentMoney();
+        secondUser.addDiscount(10);
     }
 }

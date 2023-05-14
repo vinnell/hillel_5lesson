@@ -34,6 +34,11 @@ public class User {
        public void PrintTotalAmountOfSpentMoney() {
            System.out.println("Total amount is "+ this.amountSpentMoney);
        }
+    public void addDiscount(int percent) {
+        System.out.println("Percent is: "+ percent+ "%");
+        double discountAmount = (double) ((amountSpentMoney*percent)/100);
+        System.out.println("The discount amount is: "+ discountAmount);
+     }
     }
 
 
