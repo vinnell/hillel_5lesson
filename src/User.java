@@ -27,22 +27,13 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-
     public void makePurchase(double purchasePrice) {
         System.out.println("Price of purchare is: "+ purchasePrice);
         amountSpentMoney +=purchasePrice;
     }
-
        public void PrintTotalAmountOfSpentMoney() {
            System.out.println("Total amount is "+ this.amountSpentMoney);
-
-
- }
-
-
- //   public double getAmountSpentMoney(double amountSpentMoney) {
-   //     return amountSpentMoney;
-   // }
+       }
     }
 
 
